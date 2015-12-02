@@ -1,0 +1,35 @@
+{
+  "name": "angulartics-snowplow",
+  "version": "0.0.1",
+  "description": "snowplow plugin for Angulartics",
+  "keywords": [
+    "snowplow",
+    "analytics",
+    "plugin",
+    "angular",
+    "angulartics"
+  ],
+  "author": "Tim Elfelt <timelf123@gmail.com> (https://github.com/timelf123)",
+  "contributors": [
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "build": "mkdir -p dist && uglifyjs lib/angulartics-snowplow.js --compress --unused=false --source-map dist/angulartics-snowplow.min.js.map --source-map-root .. --source-map-url ../dist/angulartics-snowplow.min.js.map -o dist/angulartics-snowplow.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angulartics/angulartics-snowplow"
+  },
+  "bugs": {
+    "url": "https://github.com/angulartics/angulartics-snowplow/issues"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "angulartics": "~0.20"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.4.23"
+  }
+}
