@@ -5,7 +5,7 @@
 Snowplow plugin for [Angulartics](http://github.com/luisfarzati/angulartics).
 
 ## Important Note
-This plugin needs maintainers! If you use Snowplow and want to contribute with code/documentation/examples and become an active maintainer of this project, please [let us know](https://github.com/angulartics/angulartics-snowplow/issues/new?title=I+want+to+join+as+maintainer).
+NOT TESTED! This plugin needs maintainers! If you use Snowplow and want to contribute with code/documentation/examples and become an active maintainer of this project, please [let us know](https://github.com/angulartics/angulartics-snowplow/issues/new?title=I+want+to+join+as+maintainer).
 
 ## Install
 
